@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h4 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h2,
+h3,
+h5,
+h6 {
+    font-family: "Titillium Web", sans-serif;
+    ;
+}
+
+/* div {    
+    border: 3px solid red;
+}  */
+
+.textbreak {
+    width: auto;
+}
+
+.section-292d33 {
+    background-color: #292d33;
+    color: white;
+}
+
+.section-ffca01 {
+    background-color: #ffca01;
+    color: #111111;
+}
+
+.section2-title {
+    font-size: 30px;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+}
+
+.border-top {
+    width: auto;
+    height: 7px;
+    background-color: #ffca01;
+}
+
+.circle-mini {
+    width: 20px;
+    height: 20px;
+    background-color: #ffca01;
+}
+
+.img-cards-struct {
+    border: 10px solid #ffca01;
+    display: inline-block;
+    width: 181px;
+    height: 181px;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.icon-cards-struct {
+    height: 75px;
+    width: 75px;
+    overflow: hidden;
+    background: #ffca01;
+    padding: 16px;
+}
+
+.icon-iamge-card {
+    width: 100%;
+}
+
+.card-size {
+    width: 340px;
+    height: 448px;
+}
+
+.backgroundimageheader {
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/698766067ade5904a464f616/5.jpg");
+    background-position: 50% 50%;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+}
+
+.backgroundimagesection4 {
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/5300a1bcd1745d6e88c31832/t4.png");
+    /* background-image: url("/images/section4fundo.jpg"); */
+    background-position: center center;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-color: #f2f2f2;
+}
+
+.more-underline {
+    text-decoration: underline;
+    text-decoration-color: #ffca01;
+    text-decoration-thickness: 1.5px;
+}
+
+.backgroundimagesection8 {
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/2531eeef587b54518bb47971/-min.jpg");
+        /* background-image: url("/images/-min.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 50%;
+    height: 40vh;
+}
+
+    
+.btn-ffca01 {
+
+    background-color: #ffca01;
+    color: black;
+}
+
+@media (min-width: 576px) {
+    body::before {
+        content: "SM";
+    }
+
+    .backgroundimagesection8 {
+        background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/2531eeef587b54518bb47971/-min.jpg");
+        /* background-image: url("/images/-min.jpg"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 50vh;
+    }
+}
+
+@media (min-width: 768px) {
+    body::before {
+        content: "MD";
+    }
+
+    .backgroundimagesection8 {
+        background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/2531eeef587b54518bb47971/-min.jpg");
+        /* background-image: url("/images/-min.jpg"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        height: 60vh;
+    }
+}
+
+@media (min-width: 992px) {
+    body::before {
+        content: "LG";
+    }
+
+    .backgroundimagesection8 {
+        background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/2531eeef587b54518bb47971/-min.jpg");
+        /* background-image: url("/images/-min.jpg"); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        height: auto;
+    }
+
+    .textbreak {
+        width: 650px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body::before {
+        content: "XL";
+    }
+}
+
+@media (min-width: 1400px) {
+    body::before {
+        content: "XXL";
+    }
+}
